@@ -14,12 +14,12 @@ const BLOG = {
   APPEARANCE: process.env.NEXT_PUBLIC_APPEARANCE || 'auto', // ['light', 'dark', 'auto'], // light 日间模式 ， dark夜间模式， auto根据时间和主题自动夜间模式
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // 夜间模式起至时间，false时关闭根据时间自动切换夜间模式
 
-  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'zhmetosr', // 您的昵称 例如 tangly1024
+  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '刘磊', // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || '一个网络安全工程师🛜', // 作者简介
-  LINK: process.env.NEXT_PUBLIC_LINK || 'zhmtosr.cn', // 网站地址
+  LINK: process.env.NEXT_PUBLIC_LINK || 'liulei.com', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '网络, 安全', // 网站关键词 英文逗号隔开
   BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || 'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fpublic.notion-static.com%2F001023d9-6639-4b23-a0ec-f1139be5294c%2F6e23de17482c95634633ef8b3a5d29a6_1.jpg?table=custom_emoji&id=1778f759-fb3c-8008-8f88-007a9bc4b7c0&spaceId=3700dfb7-729a-46a3-8c17-57ddcadd6acc&width=70&userId=176d872b-594c-81f3-a5d2-00027df232c7&cache=v2', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
-  BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '备案号 豫ICP备20241109 ', // 备案号 闽ICP备XXXXXX
+  BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '', // 备案号 闽ICP备XXXXXX
 
   // RSS订阅
   ENABLE_RSS: process.env.NEXT_PUBLIC_ENABLE_RSS || false, // 是否开启RSS订阅功能
